@@ -13,3 +13,76 @@
  *= require_tree .
  *= require_self
  */
+ .header-container {
+  display: flex;
+  padding: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #F5F5F5;
+}
+
+.flat-container {
+  margin: 50px;
+  padding: 10px;
+}
+
+.flat-card {
+  margin-bottom: 0px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  height: 200px;
+  background-color: #F5F5F5;
+}
+
+.flat-name {
+  position: relative;
+  padding: 10px;
+  height: 150px;
+  max-height: 20em;
+  overflow: hidden;
+}
+
+.clamp-two-lines {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  -webkit-line-clamp: 2;
+  max-height: 3em; /* Two lines with ellipsis */
+}
+
+.flat-name p {
+  position: absolute;
+  bottom: 5px;
+}
+
+.flat-details p {
+  margin-top: 10px;
+  display: inline;
+  padding: 10px;
+}
+
+.more-info {
+  background-color: white;
+  border: 1px solid #ccc;
+  border-top: none;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.new-flat-form {
+  display: flex;
+  background-color: #F5F5F5;
+  padding: 20px;
+  margin: 80px;
+  margin-top: 30px;
+  flex-direction: column;
+}
+
+.show-box {
+  margin: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  background-color: #F5F5F5;
+}
